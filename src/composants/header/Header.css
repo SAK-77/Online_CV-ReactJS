@@ -1,0 +1,21 @@
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  /*class="z-50 sticky top-0"*/
+}
+
+.collapse {
+  justify-content: end;
+}
+  
+.navbar .container-fluid {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 5px;
+}
+  
+.navbar-nav {
+  gap: 30px;
+}

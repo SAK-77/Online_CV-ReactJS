@@ -1,0 +1,95 @@
+
+.main-picture {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.main-picture__picture {
+    position:absolute;
+    content: "";
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-picture__picture::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.main-container {
+    box-shadow: 2px 2px 11px 6px #EEE;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-container .main-container__about-container,
+.main-container .main-container__skills-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-container .main-container__about-container {
+    padding-left: 30px;
+}
+
+.main-container__skills-container {
+    padding-right: 30px;
+}
+
+.main-container__about-container .about-container__title {
+    padding: 8px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0000ff;
+}
+
+.skills-container__image {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.skill {
+    margin-bottom: 5px;
+}
+
+.progress {
+    margin-bottom: 15px;
+}
+
+.main-picture__button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-picture h1,
+.main-picture h2 {
+    color: white;
+}
+
+.main-picture h1 {
+    margin-bottom: 35px;
+}
+
+.main-picture h2 {
+    margin-bottom: 25px;
+}
+

@@ -1,0 +1,15 @@
+.credits .accordion-body p a,
+.editor-address__phone,
+.editor-address__mail,
+.host-address__website  {
+    text-decoration: none;
+}
+
+.text-one {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.accordion-button.collapse.show{
+    color:blue;
+}

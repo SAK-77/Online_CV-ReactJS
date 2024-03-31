@@ -1,0 +1,40 @@
+.portfolio-section {
+    margin-bottom: 60px;
+}
+
+.portfolio-section__card-container {
+    display: flex;
+}
+
+
+.project-card.card {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.project-card .card-body .card-button {
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.project-card .card-button a {
+    text-decoration: none;
+    color: blue;
+    padding: 8px;
+}
+
+.card-footer p{
+    margin-bottom: 0;
+}
+
+.card-container__portfolio-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}

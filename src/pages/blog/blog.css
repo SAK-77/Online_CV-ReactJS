@@ -1,0 +1,25 @@
+.blogcard-container {
+    display: flex;
+}
+
+.blogcard-container__card-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 15px;
+}
+
+.blog-card {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blog-card .card-body .card-button {
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,77 @@
+main {
+    position: relative;
+}
+
+.background-contact {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: blue;
+}
+
+.background-contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background-color:  rgba (0, 105, 255, 0.5);
+    z-index: 1;
+}
+
+.contact-section {
+    background-color: white;
+    margin: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.contact-form .section-title,
+.address-information .section-title{
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem;
+}
+
+form input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 8px;
+}
+
+.submit-button {
+    width: --moz-fit-content;
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.address .localisation {
+    margin-bottom: 0;
+}
+
+.address .phone {
+    text-decoration: none;
+    color: black;
+}
+
+.maps-link{
+    position: relative;
+}
+
+.maps-view {
+    width: 100%;
+}
