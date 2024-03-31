@@ -78,7 +78,7 @@ export default function Footer() {
                             <p>Téléphone: <a href="tel:0751032770" className="links">0751032770</a></p>
                         </address>
                         <div className="container info__logo-container">
-                            <img src={github} alt="github-logo"/>
+                            <a href='github'><img src={github} alt="github-logo"/></a>
                             <img src={twitter} alt="twitter-logo"/>
                             <img src={linkedin} alt="linkedin-logo"/>
                         </div>
