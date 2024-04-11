@@ -5,12 +5,6 @@ import Titles from "../../composants/titles/Titles.js"
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot,faMobileScreen } from '@fortawesome/free-solid-svg-icons';
-//import MapsView from "../../asset/image/google-maps.png"
-//<img src={MapsView} alt="Positon google maps de John Doe" className="maps-view"/>
-/*<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5257.169237221236!2d2.3250831449649807!3d48.78981988529153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e6713b7445a5af%3A0xf3316dabe8027d26!2s70%20Rue%20Camille%20Desmoulins%2C%2094230%20Cachan!3m2!1d48.78982!2d2.3302329999999998!5e0!3m2!1sfr!2sfr!4v1711860793655!5m2!1sfr!2sfr" 
-width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank" rel="noreferrer" className="links">
-70 Rue Camille Desmoulins <br/>94230 Cachan, France
-</iframe>*/
 
 
 export default function Contact() {
