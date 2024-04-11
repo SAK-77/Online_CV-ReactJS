@@ -18,3 +18,8 @@
 .navbar-nav {
   gap: 30px;
 }
+
+.navbar-brand img{
+  width: 40px;
+  height: 40px;
+}

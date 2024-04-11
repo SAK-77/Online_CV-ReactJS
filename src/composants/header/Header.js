@@ -1,6 +1,7 @@
 import {Link, NavLink} from "react-router-dom";
 
 import './Header.css'
+import favicon from "../../asset/icon/favicon.png";
 
 export default function Header() {
   function changeStyleLink() {
@@ -13,7 +14,7 @@ export default function Header() {
     <header id="header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" href="#">JOHN DOE</Link>
+          <Link className="navbar-brand" to="/"><img src={favicon} alt="favicon" /> JOHN DOE</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

@@ -50,10 +50,6 @@
     padding: 17px;
 }
 
-
-#toTopPage {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
-    align-self: center;
+.toTop:hover {
+    background-color: #298eff;
 }
