@@ -68,10 +68,7 @@ textarea {
     color: black;
 }
 
-.maps-link{
+iframe{
     position: relative;
-}
-
-.maps-view {
     width: 100%;
 }
