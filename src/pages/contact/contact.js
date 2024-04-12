@@ -36,9 +36,9 @@ export default function Contact() {
                                 <section className="col-lg-6 address-information">
                                     <h2 className="section-title">Mes coordonnées</h2>
                                     <address className="address">
-                                        <p className="localisation"><FontAwesomeIcon icon={faLocationDot} /> 70 Rue Camille Desmoulins, 94230 Cachan</p>
-                                        <a href="tel:0751032770" className="phone"><FontAwesomeIcon icon={faMobileScreen} /> 0751032770</a>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5257.169237221236!2d2.3250831449649807!3d48.78981988529153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e6713b7445a5af%3A0xf3316dabe8027d26!2s70%20Rue%20Camille%20Desmoulins%2C%2094230%20Cachan!3m2!1d48.78982!2d2.3302329999999998!5e0!3m2!1sfr!2sfr!4v1711860793655!5m2!1sfr!2sfr" 
+                                        <p className="localisation"><FontAwesomeIcon icon={faLocationDot} /> 40 Rue Laure Diebold 69009 Lyon, France</p>
+                                        <a href="tel:0620304050" className="phone"><FontAwesomeIcon icon={faMobileScreen} /> 0620304050</a>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.627152462176!2d4.796403975712184!3d45.778661971080865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1712920715781!5m2!1sfr!2sfr" 
                                         width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank" rel="noreferrer" className="links" title="Address"></iframe>
                                     </address>
 

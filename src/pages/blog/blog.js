@@ -26,7 +26,7 @@ export default function Blog() {
             <div className="row">
                 <div className="col-12">
                     <div className="row blogcard-container">
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card 
                                 class="blog-card"
                                 title="Coder son site en HTML/CSS"
@@ -37,7 +37,7 @@ export default function Blog() {
                                 footer={<time dateTime="2022-08-22">Publié le 22 août 2022</time>}
                             />
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card
                                 class="blog-card"
                                 title="Vendre ses produits sur le web"
@@ -48,7 +48,7 @@ export default function Blog() {
                                 footer={<time dateTime="2022-08-20">Publié le 20 août 2022</time>}
                             />
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card
                                 class="blog-card"
                                 title="Se positionner sur Google"
@@ -58,7 +58,7 @@ export default function Blog() {
                                 footer={<time dateTime="2022-08-1">Publié le 1 août 2022</time>}
                             />
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card
                                 class="blog-card"
                                 title="Coder en responsive design"
@@ -69,7 +69,7 @@ export default function Blog() {
                                 footer={<time dateTime="2022-07-31">Publié le 31 juillet 2022</time>}
                             /> 
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card
                                 class="blog-card"
                                 title="Techniques de référencement"
@@ -80,7 +80,7 @@ export default function Blog() {
                                 footer={<time dateTime="2022-07-30">Publié le 30 juillet 2022</time>}
                             />
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
+                        <div className="blogcard-container__card-container col-sm-6 col-md-6 col-lg-4">
                             <Card
                                 class="blog-card"
                                 title="Aprendre à coder"
