@@ -1,3 +1,27 @@
+# Le Projet: Optimiser un CV en ligne avec React.JS
+
+Le but de ce projet est de créer et de rendre fonctionnel le site internet d’un développeur Web.
+Ce site présente ses compétences, ses projets et les services qu'il propose.
+
+# Validateurs W3C
+
+![Validateur W3C](imgW3C.png)
+
+# Indicateurs de performances
+
+## Desktop
+![Performance PC](desktop-perf.png)
+
+## Mobile
+![Mobile Performances](mobile-perf.png)
+
+# Lien du site
+
+https://onlinereactcv.alwaysdata.net/
+
+________
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
