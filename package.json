@@ -21,6 +21,7 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "homepage": "https://onlinereactcv.alwaysdata.net/www/cv",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
